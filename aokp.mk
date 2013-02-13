@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/aokp/configs/cdma.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/i_vzw/full_i_vzw.mk)
